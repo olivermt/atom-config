@@ -1,0 +1,11 @@
+'.platform-darwin atom-text-editor':
+  'cmd-r': 'find-and-replace:use-selection-as-find-pattern'
+  'shift-cmd-c': 'editor:toggle-line-comments'
+  'shift-cmd-up': 'editor:move-line-up'
+  'shift-cmd-down': 'editor:move-line-down'
+  'cmd-d': 'editor:delete-line'
+  'cmd-r': 'find-and-replace:use-selection-as-find-pattern'
+
+'atom-text-editor:not(mini)[data-grammar^="source elixir"]':
+  'cmd-b': 'atom-elixir:goto-definition'
+  'cmd-e': 'atom-elixir:show-elixir-docs'
