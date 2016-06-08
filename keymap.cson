@@ -16,9 +16,12 @@ windows:
   'alt-r': 'find-and-replace:use-selection-as-find-pattern'
   'shift-alt-c': 'editor:toggle-line-comments'
   'shift-alt-up': 'editor:move-line-up'
-  'shift-cmd-down': 'editor:move-line-down'
+  'shift-alt-down': 'editor:move-line-down'
   'alt-d': 'editor:delete-line'
 
 'atom-text-editor:not(mini)[data-grammar^="source elixir"]':
   'alt-b': 'atom-elixir:goto-definition'
   'alt-e': 'atom-elixir:show-elixir-docs'
+
+'.editor':
+    'ctrl-backspace': 'editor:delete-to-previous-word-boundary'
